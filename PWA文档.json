@@ -1,0 +1,21 @@
+//参考https://blog.csdn.net/mjzhang1993/article/details/79530873
+//参考https://blog.csdn.net/margin_0px/article/details/83000235
+{
+    "name": "study-note",
+    "short_name": "note",
+    "start_url": "/index.html", //设置启动网址，如果不提供的话，默认是使用当前页面
+    "display": "standalone", //设置启动样式，让您的网络应用隐藏浏览器的 URL 地址栏
+    "background_color": "#fff", //设置启动页面的背景颜色
+    "theme_color": "#3eaf7c", // 用来告知浏览器用什么颜色来为地址栏等 UI 元素着色
+    "icons": [{
+            "src": "/icons/android-chrome-192x192.png", //添加到主屏幕之后的图标
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
